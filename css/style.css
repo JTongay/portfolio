@@ -1,10 +1,19 @@
-html {
+body {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-.top-navigation {
-  width: 100%;
-  position: fixed;
+.links > li {
+  list-style: none;
+  float: center;
+  display: inline-block;
+  padding: .5em;
+  transform: rotate(360deg);
+}
+
+.top-navigation .logo {
+  float: right;
+  padding: 2em 2.5em;
+  margin-right: 3em;
 }
